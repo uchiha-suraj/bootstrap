@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap');
+
+html, body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+  height: 100%;
+  width: 100%;
+}
+
+
+/*Navigation bar*/
+  .navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, .6)!important;
+  }
+
+/*Image Slider*/
+  .main-text
+  {
+    position: absolute;
+    top: 350px;
+    width: 96.66666666666666%;
+    color: #FFF;
+  }
+  .btn-min-block
+  {
+    min-width: 170px;
+    line-height: 26px;
+  }
+  .btn-clear
+  {
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+  }
+  .btn-clear:hover
+  {
+    color: #000;
+    background-color: #FFF;
+  }
+
+/*Jumbotron*/
+  .jumbotron {
+    text-align: center;
+    letter-spacing: 2.5px;
+  }
+
+/*Footer*/
+  .footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    margin-top: -2rem;
+  }
+  hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  } 
+  hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+
+/*Login*/
